@@ -59,38 +59,28 @@ bookstore-api/
 
 1. Clone the repository:
 
-1. Clone the repository:
-
-``bash
+```bash
 git clone https://github.com/Sarmad-786/Backend-Development-Internship-Task.git
 
-Navigate to the project folder:
-
+2. Navigate to the project folder:
 cd Backend-Development-Internship-Task
 
-Install dependencies:
+3. Install dependencies:
 npm install
 
-
-Create a .env file in the root directory with your MongoDB connection string:
-
+4. Create a .env file in the root directory with your MongoDB connection string:
 PORT=5000
 MONGO_URI=mongodb+srv://admin:admin123@cluster0.rza1kbg.mongodb.net/bookstore?retryWrites=true&w=majority
 
-
-Start the server:
-
+5. Start the server:
 node app.js
-
-
 Server will run at: http://localhost:5000
 
-API Endpoints
+## API Endpoints
 Base URL
 http://localhost:5000/api/books
 
-Create a Book
-
+## Create a Book
 POST /api/books
 
 Request Body (JSON):
@@ -115,8 +105,7 @@ Response:
   "publishedDate": "2018-10-16T00:00:00.000Z"
 }
 
-Get All Books
-
+## Get All Books
 GET /api/books
 
 Response:
@@ -132,8 +121,7 @@ Response:
   }
 ]
 
-Get Book by ID
-
+## Get Book by ID
 GET /api/books/:id
 
 Response:
@@ -147,7 +135,7 @@ Response:
   "publishedDate": "2018-10-16T00:00:00.000Z"
 }
 
-Update Book
+## Update Book
 
 PUT /api/books/:id
 
@@ -169,7 +157,7 @@ Response:
   "publishedDate": "2018-10-16T00:00:00.000Z"
 }
 
-Delete Book
+## Delete Book
 
 DELETE /api/books/:id
 
@@ -187,7 +175,7 @@ Pagination and search filter
 
 Add a second model: User and associate it with books
 
-Author
+## Author
 
 Muhammad Sarmad Chughtai
 GitHub: https://github.com/Sarmad-786
