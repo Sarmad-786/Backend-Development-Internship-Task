@@ -58,8 +58,6 @@ bookstore-api/
 ## Installation
 
 1. Clone the repository:
-
-```bash
 git clone https://github.com/Sarmad-786/Backend-Development-Internship-Task.git
 
 2. Navigate to the project folder:
